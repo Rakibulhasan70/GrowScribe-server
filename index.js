@@ -41,7 +41,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('GrowthScrtibe is running')
+    res.send('GrowthScrtibe is running done')
 })
 
 app.listen(port, () => {
