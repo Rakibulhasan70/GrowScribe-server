@@ -102,21 +102,6 @@ async function run() {
         })
 
 
-
-
-        // app.post('/input', async (req, res) => {
-        //     const news = req.body
-        //     const result = await inputCollection.insertOne(news)
-        //     res.send(result)
-        // })
-
-        // app.get('/inputs', async (req, res) => {
-        //     const query = {}
-        //     const cursor = inputCollection.find(query)
-        //     const result = await cursor.toArray()
-        //     res.send(result)
-        // });
-
     }
     finally {
 
@@ -127,7 +112,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('GrowthScrtibe is running done')
+    res.send('codeBluster is running done')
 })
 
 app.listen(port, () => {
